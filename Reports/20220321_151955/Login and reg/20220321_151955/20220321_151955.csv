@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login and reg,Chrome 99.0.4844.74,,,2022-03-21 15:19:58,2022-03-21 15:20:17,19.583s,ERROR
+,,,,,,,
+Test Cases/New Test Case (7),Chrome 99.0.4844.74,,,2022-03-21 15:19:58,2022-03-21 15:19:58,0.339s,PASSED
+return null,Chrome 99.0.4844.74,,,2022-03-21 15:19:58,2022-03-21 15:19:58,0.001s,PASSED
+,,,,,,,
+Test Cases/New Test Case (8),Chrome 99.0.4844.74,,,2022-03-21 15:19:58,2022-03-21 15:19:58,0.358s,PASSED
+return null,Chrome 99.0.4844.74,,,2022-03-21 15:19:58,2022-03-21 15:19:58,0.001s,PASSED
+,,,,,,,
+Test Cases/New Test Case (9),Chrome 99.0.4844.74,,,2022-03-21 15:19:59,2022-03-21 15:20:08,9.310s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.74,,,2022-03-21 15:19:59,2022-03-21 15:20:01,2.580s,PASSED
+"navigateToUrl(""https://admin.eazr.one/#/login?redirect=%2Fdashboard"")",Chrome 99.0.4844.74,,,2022-03-21 15:20:01,2022-03-21 15:20:06,4.319s,PASSED
+maximizeWindow(),Chrome 99.0.4844.74,,,2022-03-21 15:20:06,2022-03-21 15:20:06,0.179s,PASSED
+"setText(findTestObject(""Object Repository/Page_Orize Admin/input_Welcome To Orize Admin Portal_email""), ""ruchitatatkare123@gmail.com"")",Chrome 99.0.4844.74,,,2022-03-21 15:20:06,2022-03-21 15:20:07,0.949s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Orize Admin/input_Welcome To Orize Admin Portal_password""), ""nMriJaOmLOTs9IPs1bV6Hg=="")",Chrome 99.0.4844.74,,,2022-03-21 15:20:07,2022-03-21 15:20:07,0.515s,PASSED
+"click(findTestObject(""Object Repository/Page_Orize Admin/button_Login To Proceed""))",Chrome 99.0.4844.74,,,2022-03-21 15:20:07,2022-03-21 15:20:08,0.439s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Chrome 99.0.4844.74,,,2022-03-21 15:20:08,2022-03-21 15:20:08,0.480s,PASSED
+return null,Chrome 99.0.4844.74,,,2022-03-21 15:20:08,2022-03-21 15:20:08,0.002s,PASSED
+,,,,,,,
+Test Cases/Poonam Test Case (10),Chrome 99.0.4844.74,,,2022-03-21 15:20:15,2022-03-21 15:20:17,2.019s,ERROR
+"openBrowser("""")",Chrome 99.0.4844.74,,,2022-03-21 15:20:15,2022-03-21 15:20:17,1.881s,PASSED
+maximizeWindow(),Chrome 99.0.4844.74,,,2022-03-21 15:20:17,2022-03-21 15:20:17,0.125s,PASSED
+clickImage(findTestObject),Chrome 99.0.4844.74,,,2022-03-21 15:20:17,2022-03-21 15:20:17,0.002s,ERROR
