@@ -16,17 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
- WebUI.openBrowser('')
 
 
-WebUI.navigateToUrl('https://admin.eazr.one/#/login?redirect=%2Fdashboard')
+
+WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Page_Orize Admin/input_Welcome To Orize Admin Portal_email'), 'ruchitatatkare123@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Orize Admin/input_Welcome To Orize Admin Portal_password'), 
-    'nMriJaOmLOTs9IPs1bV6Hg==')
-
-WebUI.click(findTestObject('Object Repository/Page_Orize Admin/button_Login To Proceed'))
+WebUI.clickImage(findTestObject)
 
